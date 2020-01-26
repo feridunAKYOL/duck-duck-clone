@@ -2,21 +2,25 @@
 
 ## WireFrame
 
-> link to your wireframe.cc wireframe. (you can ignore the evaluation buttons in your wireframe)
+[link to your wireframe](https://wireframe.cc/R7tylM)
+![](https://raw.githubusercontent.com/feridunAKYOL/feridunakyol.github.io/master/wireframe.png)
 
-## Steps Plan
+# Steps Plan
 
-> add one row to this table for each user story you define
+## Development Strategy
+
 
 | _Step Name_ | User Story | Changes in HTML | Changes in CSS |
 | --- | --- | --- | --- |
-| __Live Boilerplate__ | As an enthusiastic HYF student I can navigate to an empty website so that I know the project is set up correctly | An empty template project with `doctype`, language, charset, `head` & `body`, and evaluation script | an empty main `style.css` and an existing evaluation style |
-|  | |  |  |
-| ... | ... | ... | ... |
-| (descriptive name) | (user story) | (what did you add to the HTML?) | (what did you add to the CSS?) |
+|**Start point/files&folders and Development Strategy**|**As a Web developer** I need to know what pages, folders and pictures that I need|An empty template project with `doctype`, language, charset, `head` & `body` |an empty file|
+|**Main part of the page**|**As a Web developer** I need to see the `main` part of the HTML, `header`,`footer`,`section`|created main parts and text|an empty file|
+|**Side Menu**|**As a Web developer** , I want to see the menu at right of the top of the page |created `header`|necessary changes |
+|**Search Form**|**As a Web developer** , I want to see the search menu |created `header`|necessary changes |
+|**Section-1**|**As a Web developer** , I need to see structure of the `section-1` and css changes|Section-1 is added|CSS added|
+|**Section-2**|**As a Web developer** , I need to see the structure of the `Section-2` |`section`, `div's`|some CSS changes|
+|**Section-3**|**As a Web developer** I need to see he structure of the `Section-3`|Section-3 created|some changes needed|
+|**Section-4**|**As a Web developer** I need to see he structure of the `Section-4`|Section-4 is added|some extra CSS comments added|
+|**Section-5**|**As a Web developer** I need to see he structure of the `Section-5`|Section-5 is added|CSS comments added |
+|**Section-6**|**As a Web developer** I need to see he structure of the `Section-6`|Section-6 is added|added some features for the Section-6|
 
 
----
----
-
-### <a href="https://hackyourfuture.be" target="_blank"><img src="https://user-images.githubusercontent.com/18554853/63941625-4c7c3d00-ca6c-11e9-9a76-8d5e3632fe70.jpg" width="100" height="100" alt="Hack Your Future: Belgium"></a>
