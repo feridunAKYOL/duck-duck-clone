@@ -19,3 +19,9 @@ ul li a {
     border-color: #2C5B49;
     
 }
+.section-3bg {
+    background-color: #F5A339;
+}
+.section-3bg .btn {
+    background-color: #7A511E;
+}
