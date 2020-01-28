@@ -9,6 +9,7 @@ ul li a {
     color: black;
 }
 
+
 .section-2bg {
     background-color: #58B792;
     color:#FFFFFF;
@@ -19,3 +20,8 @@ ul li a {
     border-color: #2C5B49;
     
 }
+=======
+.checked:before {
+    content: '✓' ; 
+   }
+
