@@ -18,10 +18,21 @@ ul li a {
     background-color: #2C5B49;
     border-color: #2C5B49;
     
+    
 }
 .section-3bg {
     background-color: #F5A339;
+    color:#FFFFFF;
 }
 .section-3bg .btn {
     background-color: #7A511E;
+    border-color:#7A511E;
+}
+.section-4bg {
+    background-color: #5F62BD;
+    color:#FFFFFF;
+}
+.section-4bg .btn {
+    background-color: #2F325F;
+    border-color:#2F325F;
 }
