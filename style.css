@@ -9,6 +9,7 @@ ul li a {
     color: black;
 }
 
+
 .section-2bg {
     background-color: #58B792;
     color:#FFFFFF;
@@ -25,3 +26,9 @@ ul li a {
 .section-3bg .btn {
     background-color: #7A511E;
 }
+
+.checked:before {
+    content: '✓' ; 
+   }
+
+
