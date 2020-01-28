@@ -9,6 +9,7 @@ ul li a {
     color: black;
 }
 
+
 .section-2bg {
     background-color: #58B792;
     color:#FFFFFF;
@@ -26,6 +27,7 @@ ul li a {
 }
 .section-3bg .btn {
     background-color: #7A511E;
+
     border-color:#7A511E;
 }
 .section-4bg {
@@ -36,3 +38,12 @@ ul li a {
     background-color: #2F325F;
     border-color:#2F325F;
 }
+
+}
+
+.checked:before {
+    content: '✓' ; 
+   }
+
+
+
