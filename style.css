@@ -13,6 +13,7 @@ ul li a {
 .section-2bg {
     background-color: #58B792;
     color:#FFFFFF;
+    
 }
 
 .section-2bg .btn {
@@ -24,6 +25,7 @@ ul li a {
 .section-3bg {
     background-color: #F5A339;
     color:#FFFFFF;
+    
 }
 .section-3bg .btn {
     background-color: #7A511E;
@@ -47,6 +49,22 @@ ul li a {
     background-color: #2F325F;
     border-color:#2F325F;
 }
+
+
+.container {
+    margin-top: 4vh;
+}
+.jumbotron {
+    margin-top: 0em;
+}
+.btn-group {
+    border-color: grey;
+}
+.section-5bg a {
+    color: black;
+    font-weight: 500;
+}
+
 
 a.hover {
     color: inherit;
