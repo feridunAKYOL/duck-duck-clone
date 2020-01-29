@@ -11,68 +11,53 @@
 </head>
 <body>
   <!--side menu: collapsed menu and angle-down menu -->
-  <header>
-    <div class="collapse bg-light" id="navbarHeader">
-      <div class="container">
-        <div class="row">
-          <div class= "col-sm-4 offset-md-1 py-4">
-            <ul>
-              <li class="text-dark">SETTINGS</li>
-                  <ul>
-                    <li><a href= "#"> themes </a> </li>
-                    <li><a href= "#"> other settings </a> </li>
-                    <li><a href= "#"> Ibang search shorcuts </a>  </li>
-                  </ul>
-              <li class="text-dark">PRIVACY ESSENTIALS</li>
-                  <ul>
-                    <li><a href= "#"> private search </a> </li>
-                    <li><a href= "#"> app and extensions </a> </li>
-                  </ul>
-              <li class="text-dark">WHY PRIVACY</li>
-                  <ul>
-                    <li><a href= "#"> privacy blog </a> </li>
-                    <li><a href= "#"> privacy crash course </a> </li>
-                    <li><a href= "#"> help spread privacy </a> </li>
-                  </ul>
-              <li class="text-dark">WHO WE ARE</li>
-                  <ul>
-                    <li><a href= "#"> About Us  </li>
-                    <li><a href= "#"> Privacy Policy  </li>
-                    <li><a href= "#"> Careers  </a> </li>
-                    <li><a href= "#"> Press Kit  </a> </li>
-                  </ul>
-              <li class="text-dark">KEEP IN TOUCH</li>
-                  <ul>
-                    <li><a href= "#"> Twitter  </a> </li>
-                    <li><a href= "#"> Store  </a> </li>
-                    <li><a href= "#"> Reddit  </a> </li>
-                    <li><a href= "#"> Help  </li>
-                  </ul>
-            </ul>
-          </div>
+  <div class="navbar bg-light">
+    <div class="container d-flex justify-content-end">
+      <div class=" dropdown mr-3">
+        <button class="btn dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img src="twitter-24.ico" alt="twitter icon">
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="https://twitter.com/duckduckgo"><img src="https://duckduckgo.com/assets/icons/header/twitter-color.svg"> Twitter</a>
+          <a class="dropdown-item" href="https://www.reddit.com/r/duckduckgo/"><img src="https://duckduckgo.com/assets/icons/header/reddit-color.svg"> Reddit</a>
+          <a class="dropdown-item" href="https://spreadprivacy.com/"><img src="https://duckduckgo.com/assets/icons/header/globe-alt.svg"> Blog</a>
         </div>
       </div>
-    </div>
-    <div class="navbar navbar-dark bg-light box-shadow">
-      <div class="container d-flex justify-content-end">
-        <a href="#" class="navbar-brand d-flex"> </a>
-        <div class="dropdown p-2">
-          <button class="btn btn-light dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <img src="twitter-24.ico">
+        <div class="dropdown dropright">
+          <button class="btn-group btn-light" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <img src="dehaze-24px.svg" alt="menu icon">
           </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="https://twitter.com/duckduckgo"><img src="https://duckduckgo.com/assets/icons/header/twitter-color.svg"> Twitter</a>
-            <a class="dropdown-item" href="https://www.reddit.com/r/duckduckgo/"><img src="https://duckduckgo.com/assets/icons/header/reddit-color.svg"> Reddit</a>
-            <a class="dropdown-item" href="https://spreadprivacy.com/"><img src="https://duckduckgo.com/assets/icons/header/globe-alt.svg"> Blog</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item text-muted" href="#">SETTINGS</a>
+            <a class="dropdown-item small" href="#">Themes</a>
+            <a class="dropdown-item small" href="#">Other Settings</a>
+            <a class="dropdown-item small" href="#">IBang search Shorcuts</a>
+            <br>
+            <a class="dropdown-item text-muted small" href="#">PRIVACY ESSENTIALS</a>
+            <a class="dropdown-item small" href="#">Private Search</a>
+            <a class="dropdown-item small" href="#">App and Extension</a>
+            <br>
+            <a class="dropdown-item text-muted small" href="#">WHY PRIVACY</a>
+            <a class="dropdown-item small" href="#">Privacy Blog</a>
+            <a class="dropdown-item small" href="#">Privacy Crash Course </a>
+            <a class="dropdown-item small" href="#">Help Spread Privacy</a>
+            <br>
+            <a class="dropdown-item text-muted  small" href="#">WHO WE ARE</a>
+            <a class="dropdown-item small" href="#">About Us</a>
+            <a class="dropdown-item small" href="#">Privacy Policy </a>
+            <a class="dropdown-item small" href="#">Careers</a>
+            <a class="dropdown-item small" href="#">Press Kit</a>
+            <br>
+            <a class="dropdown-item text-muted small" href="#">KEEP IN TOUCH</a>
+            <a class="dropdown-item small" href="#">Tweeter</a>
+            <a class="dropdown-item small" href="#">Store </a>
+            <a class="dropdown-item small" href="#">Reddit</a>
+            <a class="dropdown-item small" href="#">Help</a>
           </div>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader">
-            <img src="dehaze-24px.svg">
-          </button>
         </div>
-      </div>
     </div>
-    
-  </header>
+  </div>
+</header>
  
   <!--search menu-->
   <div class="container-fluid row bg-light" >
@@ -99,7 +84,7 @@
     <section class= "container-fluid col-12 bg-light">
       <div class="container">
         <div class="d-flex justify-content-start flex-column">
-          <div class="h1 font-weight-bold">Privacy, simplified.</div>
+          <div class="h1 font-weight-bold ">Privacy, simplified.</div>
           <div class="checked h5">We don't store your personal info.</div>
           <div class="checked h5">We don't follow you around with ads..</div>
           <div class="checked h5">We don't track you. Ever.</div>
@@ -115,9 +100,9 @@
   <!--section-2-->
   <div class="container-fluid row section-2bg pt-3" >
     <section class= "section-2bg container-fluid col-12 ">
-        <div class="container">
+        <div class="container ">
           <div class=" row justify-content-md-center ">
-              <div class="h1 font-weight-bold col-6 row justify-content-md-center ">We don’t store your personal information. Ever.</div>
+              <div class="h1 font-weight-bold col-6 row text-center">We don’t store your personal information. Ever.</div>
               <div class="checked h5 row justify-content-md-center">
                 <p>Our privacy policy is simple: we don’t collect or share any of your personal information.</p>
                 <button type="button" class="btn btn-primary col-3  ">Add DuckDuckGo to Chrome</button>
@@ -135,7 +120,7 @@
     <section class= "section-3bg container-fluid col-12 ">
         <div class="container">
           <div class=" row justify-content-md-center ">
-              <div class="h1 font-weight-bold col-6 row justify-content-md-center ">We don’t follow you around with ads.</div>
+              <div class="h1 font-weight-bold col-6 row justify-content-md-center text-center ">We don’t follow you around with ads.</div>
               <div class="checked h5 row justify-content-md-center 8">
                 <p>We don’t store your search history. We therefore have nothing to sell to advertisers that track you across the Internet. </p>           
                 <button type="button" class="btn btn-primary col-3  ">Add DuckDuckGo to Chrome</button>
@@ -153,7 +138,7 @@
     <section class= "section-4bg container-fluid col-12 ">
         <div class="container">
           <div class=" row justify-content-md-center ">
-              <div class="h1 font-weight-bold col-6 row justify-content-md-center ">We don’t track you in or out of private browsing mode.</div>
+              <div class="h1 font-weight-bold col-6 row justify-content-md-center text-center">We don’t track you in or out of private browsing mode.</div>
               <div class="checked h5 row justify-content-md-center 8">
                 <p>Other search engines track your searches even when you’re in private browsing mode. We don’t track you — period. </p>           
                 <button type="button" class="btn btn-primary col-3  ">Add DuckDuckGo to Chrome</button>
@@ -167,13 +152,13 @@
   </div>
   <!--Section-5-->
   <div class="container-fluid row section-5bg pt-3" >
-    <section class= "section-5bg container-fluid col-6 ">
+    <section class= "section-5bg container-fluid col-12 ">
         <div class="float-right text-dark ">
-          <a href="#search" >back to search</a>
+          <a href="#search" >Back to search</a>
         </div> 
         <div class="container">
           <div class=" row justify-content-md-center ">
-              <div class="h1 font-weight-bold col-9 row justify-content-md-center ">Switch to DuckDuckGo and take back your privacy!</div>
+              <div class="h1 font-weight-bold col-6 row justify-content-md-center text-center">Switch to DuckDuckGo and take back your privacy!</div>
               <div class="checked container row h5 justify-content-md-center ">
                 <p class="row">No tracking, no ad targeting, just searching. </p>  
               </div>        
@@ -184,16 +169,6 @@
           </div>
         </div>
     </section>
-  
-
-
-
-  <section class= "container-fluid col-12"></section>
-
-  <section class= "container-fluid col-12"></section>
-
-  <section class= "container-fluid col-12"></section>
-
   <script src='./evaluation/init.js'></script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
