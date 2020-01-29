@@ -12,9 +12,8 @@ We have 3 main target by doing such a project:
 ### INSPIRATION
 Our project is depends on [DuckDuckGo](https://duckduckgo.com/?va=z&t=hk) 
 ### SCREENSHOTS
-![](https://raw.githubusercontent.com/feridunAKYOL/feridunakyol.github.io/master/DuckDuck1.png)
-![](https://raw.githubusercontent.com/feridunAKYOL/feridunakyol.github.io/master/DuckDuck2.png)
-![](https://raw.githubusercontent.com/feridunAKYOL/feridunakyol.github.io/master/DuckDuck3.png)
+![](https://raw.githubusercontent.com/feridunAKYOL/feridunakyol.github.io/master/screencapture-feridunakyol-github-io-duck-duck-clone.png)
+
 ### TECHNOLOGIES
 - HTML5
 - CSS3
