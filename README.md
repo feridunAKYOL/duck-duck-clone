@@ -1,4 +1,4 @@
-# Project of app-theme
+# Project of DuckDuckGo Clone
 ### TARGET
 In this project we try to build DuckDuckGo webpage only by using **HTML5** and **CSS3**. Different from first two project,
 in this project I build on my own :muscle:. Namely no tutorial :laughing:
